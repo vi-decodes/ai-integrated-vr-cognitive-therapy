@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Models / Large files
+*.pkl
+*.h5
+*.pt
+*.onnx
+
+# Node
+node_modules/
+dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
