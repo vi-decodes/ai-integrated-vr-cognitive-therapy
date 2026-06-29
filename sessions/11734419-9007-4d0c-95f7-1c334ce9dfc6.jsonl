@@ -1,0 +1,10 @@
+{"session_id": "11734419-9007-4d0c-95f7-1c334ce9dfc6", "timestamp": 1782671257.276, "fused_score": 0.8, "stress_state": "escalated", "confidence": 0.9999830722808838, "physio_score": 0.2, "audio_score": 0.2}
+{"session_id": "11734419-9007-4d0c-95f7-1c334ce9dfc6", "timestamp": 1782671258.29, "fused_score": 0.8, "stress_state": "escalated", "confidence": 0.9999830722808838, "physio_score": 0.2, "audio_score": 0.2}
+{"session_id": "11734419-9007-4d0c-95f7-1c334ce9dfc6", "timestamp": 1782671259.297, "fused_score": 0.5, "stress_state": "mild", "confidence": 0.860191285610199, "physio_score": 0.2, "audio_score": 0.35}
+{"session_id": "11734419-9007-4d0c-95f7-1c334ce9dfc6", "timestamp": 1782671260.308, "fused_score": 0.5, "stress_state": "mild", "confidence": 0.860191285610199, "physio_score": 0.2, "audio_score": 0.35}
+{"session_id": "11734419-9007-4d0c-95f7-1c334ce9dfc6", "timestamp": 1782671261.321, "fused_score": 0.8, "stress_state": "escalated", "confidence": 0.9999710321426392, "physio_score": 0.2, "audio_score": 0.3}
+{"session_id": "11734419-9007-4d0c-95f7-1c334ce9dfc6", "timestamp": 1782671262.328, "fused_score": 0.8, "stress_state": "escalated", "confidence": 0.9999710321426392, "physio_score": 0.2, "audio_score": 0.3}
+{"session_id": "11734419-9007-4d0c-95f7-1c334ce9dfc6", "timestamp": 1782671263.337, "fused_score": 0.8, "stress_state": "escalated", "confidence": 0.9996323585510254, "physio_score": 0.2, "audio_score": 0.275}
+{"session_id": "11734419-9007-4d0c-95f7-1c334ce9dfc6", "timestamp": 1782671264.346, "fused_score": 0.8, "stress_state": "escalated", "confidence": 0.9996323585510254, "physio_score": 0.2, "audio_score": 0.275}
+{"session_id": "11734419-9007-4d0c-95f7-1c334ce9dfc6", "timestamp": 1782671265.354, "fused_score": 0.8, "stress_state": "escalated", "confidence": 0.9995211362838745, "physio_score": 0.2, "audio_score": 0.275}
+{"session_id": "11734419-9007-4d0c-95f7-1c334ce9dfc6", "timestamp": 1782671266.371, "fused_score": 0.8, "stress_state": "escalated", "confidence": 0.9995211362838745, "physio_score": 0.2, "audio_score": 0.275}

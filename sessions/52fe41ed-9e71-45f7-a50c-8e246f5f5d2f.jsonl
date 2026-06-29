@@ -1,0 +1,11 @@
+{"session_id": "52fe41ed-9e71-45f7-a50c-8e246f5f5d2f", "timestamp": 1777691310.023, "fused_score": 0.2, "stress_state": "calm", "confidence": 1.0, "physio_score": 0.2, "audio_score": 0.2}
+{"session_id": "52fe41ed-9e71-45f7-a50c-8e246f5f5d2f", "timestamp": 1777691311.039, "fused_score": 0.2, "stress_state": "calm", "confidence": 1.0, "physio_score": 0.2, "audio_score": 0.2}
+{"session_id": "52fe41ed-9e71-45f7-a50c-8e246f5f5d2f", "timestamp": 1777691312.056, "fused_score": 0.5, "stress_state": "mild", "confidence": 0.9863481521606445, "physio_score": 0.2, "audio_score": 0.35}
+{"session_id": "52fe41ed-9e71-45f7-a50c-8e246f5f5d2f", "timestamp": 1777691313.072, "fused_score": 0.5, "stress_state": "mild", "confidence": 0.9863481521606445, "physio_score": 0.2, "audio_score": 0.35}
+{"session_id": "52fe41ed-9e71-45f7-a50c-8e246f5f5d2f", "timestamp": 1777691314.075, "fused_score": 0.5, "stress_state": "mild", "confidence": 0.9963100552558899, "physio_score": 0.2, "audio_score": 0.3}
+{"session_id": "52fe41ed-9e71-45f7-a50c-8e246f5f5d2f", "timestamp": 1777691315.087, "fused_score": 0.5, "stress_state": "mild", "confidence": 0.9963100552558899, "physio_score": 0.2, "audio_score": 0.3}
+{"session_id": "52fe41ed-9e71-45f7-a50c-8e246f5f5d2f", "timestamp": 1777691316.096, "fused_score": 0.5, "stress_state": "mild", "confidence": 1.0, "physio_score": 0.2, "audio_score": 0.35}
+{"session_id": "52fe41ed-9e71-45f7-a50c-8e246f5f5d2f", "timestamp": 1777691317.103, "fused_score": 0.5, "stress_state": "mild", "confidence": 1.0, "physio_score": 0.2, "audio_score": 0.35}
+{"session_id": "52fe41ed-9e71-45f7-a50c-8e246f5f5d2f", "timestamp": 1777691318.118, "fused_score": 0.5, "stress_state": "mild", "confidence": 1.0, "physio_score": 0.2, "audio_score": 0.35}
+{"session_id": "52fe41ed-9e71-45f7-a50c-8e246f5f5d2f", "timestamp": 1777691319.135, "fused_score": 0.5, "stress_state": "mild", "confidence": 1.0, "physio_score": 0.2, "audio_score": 0.35}
+{"session_id": "52fe41ed-9e71-45f7-a50c-8e246f5f5d2f", "timestamp": 1777691320.15, "fused_score": 0.5, "stress_state": "mild", "confidence": 1.0, "physio_score": 0.2, "audio_score": 0.35}

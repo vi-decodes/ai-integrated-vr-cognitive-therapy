@@ -6,7 +6,8 @@ import {
   Headphones,
   Settings,
   LogOut,
-  ChevronRight
+  ChevronRight,
+  Activity
 } from "lucide-react";
 import { NavLink } from "@/components/NavLink";
 import { useLocation } from "react-router-dom";
@@ -27,11 +28,8 @@ import {
 
 const mainItems = [
   { title: "Dashboard", url: "/dashboard", icon: LayoutDashboard },
-  { title: "Schedule", url: "/schedule", icon: Calendar },
-  { title: "Patients", url: "/patients", icon: Users },
-  { title: "Reports", url: "/reports", icon: FileText },
-  { title: "VR Modules", url: "/vr-modules", icon: Headphones },
-  { title: "Notes", url: "/notes", icon: FileText },
+  { title: "Monitoring", url: "/monitoring", icon: Activity },
+  { title: "Post-Session Analysis", url: "/reports", icon: FileText },
 ];
 
 const bottomItems = [

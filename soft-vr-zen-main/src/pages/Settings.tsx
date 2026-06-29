@@ -5,7 +5,7 @@ import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 import { Switch } from "@/components/ui/switch";
 import { Separator } from "@/components/ui/separator";
-import { User, Bell, Lock, Palette } from "lucide-react";
+import { User, Bell, Lock, Palette, Database, Download, FileText, Trash2 } from "lucide-react";
 
 export default function Settings() {
   return (
@@ -135,7 +135,7 @@ export default function Settings() {
             <div className="flex items-center justify-between">
               <div>
                 <p className="font-medium text-foreground">Two-Factor Authentication</p>
-                <p className="text-sm text-muted-foreground">Add an extra layer of security</p>
+                <p className="text-sm text-muted-foreground">Add an extra layer of security to your account</p>
               </div>
               <Button variant="outline" className="rounded-2xl">Enable</Button>
             </div>
@@ -143,17 +143,50 @@ export default function Settings() {
             <div className="flex items-center justify-between">
               <div>
                 <p className="font-medium text-foreground">Change Password</p>
-                <p className="text-sm text-muted-foreground">Update your account password</p>
+                <p className="text-sm text-muted-foreground">Update your account credentials</p>
               </div>
               <Button variant="outline" className="rounded-2xl">Change</Button>
+            </div>
+          </CardContent>
+        </Card>
+
+        {/* Clinical Data Management */}
+        <Card className="bg-card border-0 shadow-[0px_4px_15px_rgba(0,0,0,0.08)] rounded-3xl">
+          <CardHeader>
+            <div className="flex items-center gap-2">
+              <Database className="w-5 h-5 text-foreground" />
+              <CardTitle className="text-xl font-bold text-foreground">Clinical Data Management</CardTitle>
+            </div>
+          </CardHeader>
+          <CardContent className="space-y-6">
+            <div className="flex items-center justify-between">
+              <div>
+                <p className="font-medium text-foreground">Export Session Data</p>
+                <p className="text-sm text-muted-foreground">Download all session records as a structured CSV file</p>
+              </div>
+              <Button variant="outline" className="rounded-2xl gap-2">
+                <Download className="w-4 h-4" /> Export
+              </Button>
             </div>
             <Separator />
             <div className="flex items-center justify-between">
               <div>
-                <p className="font-medium text-foreground">Active Sessions</p>
-                <p className="text-sm text-muted-foreground">Manage devices logged into your account</p>
+                <p className="font-medium text-foreground">Download Reports</p>
+                <p className="text-sm text-muted-foreground">Generate and download post-session analysis reports as PDF</p>
               </div>
-              <Button variant="outline" className="rounded-2xl">View</Button>
+              <Button variant="outline" className="rounded-2xl gap-2">
+                <FileText className="w-4 h-4" /> Download
+              </Button>
+            </div>
+            <Separator />
+            <div className="flex items-center justify-between">
+              <div>
+                <p className="font-medium text-foreground">Clear Local Cache</p>
+                <p className="text-sm text-muted-foreground">Remove locally stored session data and inference logs from this device</p>
+              </div>
+              <Button variant="outline" className="rounded-2xl gap-2 border-red-200 text-red-600 hover:bg-red-50">
+                <Trash2 className="w-4 h-4" /> Clear
+              </Button>
             </div>
           </CardContent>
         </Card>
@@ -170,15 +203,15 @@ export default function Settings() {
             <div className="flex items-center justify-between">
               <div>
                 <p className="font-medium text-foreground">Dark Mode</p>
-                <p className="text-sm text-muted-foreground">Switch to dark theme</p>
+                <p className="text-sm text-muted-foreground">Switch to dark theme for low-light environments</p>
               </div>
               <Switch />
             </div>
             <Separator />
             <div className="flex items-center justify-between">
               <div>
-                <p className="font-medium text-foreground">Compact View</p>
-                <p className="text-sm text-muted-foreground">Reduce spacing in dashboard</p>
+                <p className="font-medium text-foreground">Compact Dashboard</p>
+                <p className="text-sm text-muted-foreground">Reduce card spacing for higher information density</p>
               </div>
               <Switch />
             </div>

@@ -1,0 +1,9 @@
+{"session_id": "a63513b9-57de-4167-bff2-f1d776b33c2c", "timestamp": 1777698964.356, "fused_score": 0.2, "stress_state": "calm", "confidence": 0.999642014503479, "physio_score": 0.8, "audio_score": 0.2}
+{"session_id": "a63513b9-57de-4167-bff2-f1d776b33c2c", "timestamp": 1777698965.36, "fused_score": 0.2, "stress_state": "calm", "confidence": 0.9362722635269165, "physio_score": 0.8, "audio_score": 0.2}
+{"session_id": "a63513b9-57de-4167-bff2-f1d776b33c2c", "timestamp": 1777698966.368, "fused_score": 0.2, "stress_state": "calm", "confidence": 0.8947553634643555, "physio_score": 0.8, "audio_score": 0.2}
+{"session_id": "a63513b9-57de-4167-bff2-f1d776b33c2c", "timestamp": 1777698967.382, "fused_score": 0.5, "stress_state": "mild", "confidence": 0.9999954700469971, "physio_score": 0.8, "audio_score": 0.32}
+{"session_id": "a63513b9-57de-4167-bff2-f1d776b33c2c", "timestamp": 1777698968.425, "fused_score": 0.5, "stress_state": "mild", "confidence": 0.9999809265136719, "physio_score": 0.2, "audio_score": 0.32}
+{"session_id": "a63513b9-57de-4167-bff2-f1d776b33c2c", "timestamp": 1777698969.441, "fused_score": 0.5, "stress_state": "mild", "confidence": 0.9978305697441101, "physio_score": 0.2, "audio_score": 0.32}
+{"session_id": "a63513b9-57de-4167-bff2-f1d776b33c2c", "timestamp": 1777698970.457, "fused_score": 0.5, "stress_state": "mild", "confidence": 0.9930306077003479, "physio_score": 0.2, "audio_score": 0.32}
+{"session_id": "a63513b9-57de-4167-bff2-f1d776b33c2c", "timestamp": 1777698971.474, "fused_score": 0.5, "stress_state": "mild", "confidence": 0.9930306077003479, "physio_score": 0.2, "audio_score": 0.32}
+{"session_id": "a63513b9-57de-4167-bff2-f1d776b33c2c", "timestamp": 1777698972.587, "fused_score": 0.5, "stress_state": "mild", "confidence": 0.9965774416923523, "physio_score": 0.8, "audio_score": 0.32}

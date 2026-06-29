@@ -2,42 +2,43 @@ import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Landing from "./pages/Landing";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { SessionProvider } from "./context/SessionContext";
+import LandingPage from "./pages/LandingPage";
 import Dashboard from "./pages/Dashboard";
 import Auth from "./pages/Auth";
-import Patients from "./pages/Patients";
-import PatientProfile from "./pages/PatientProfile";
-import Schedule from "./pages/Schedule";
+import Monitoring from "./pages/Monitoring";
 import Reports from "./pages/Reports";
-import VRModules from "./pages/VRModules";
-import Notes from "./pages/Notes";
 import Settings from "./pages/Settings";
 import NotFound from "./pages/NotFound";
+import { useState } from "react";
+import { predictStress, PredictResponse } from "./services/api";
+
 
 const queryClient = new QueryClient();
+
+
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Landing />} />
-          <Route path="/auth" element={<Auth />} />
-          <Route path="/dashboard" element={<Dashboard />} />
-          <Route path="/patients" element={<Patients />} />
-          <Route path="/patients/:id" element={<PatientProfile />} />
-          <Route path="/schedule" element={<Schedule />} />
-          <Route path="/reports" element={<Reports />} />
-          <Route path="/vr-modules" element={<VRModules />} />
-          <Route path="/notes" element={<Notes />} />
-          <Route path="/settings" element={<Settings />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </BrowserRouter>
+      <SessionProvider>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<LandingPage />} />
+            <Route path="/auth" element={<Auth />} />
+            <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/monitoring" element={<Monitoring />} />
+            <Route path="/reports" element={<Reports />} />
+            <Route path="/settings" element={<Settings />} />
+            <Route path="/logout" element={<Navigate to="/" replace />} />
+            {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </BrowserRouter>
+      </SessionProvider>
     </TooltipProvider>
   </QueryClientProvider>
 );

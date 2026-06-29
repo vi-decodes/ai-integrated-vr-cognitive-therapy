@@ -1,0 +1,10 @@
+{"session_id": "a2d410d8-a3fd-4c36-87db-6a2d74e10bf1", "timestamp": 1777687142.838, "fused_score": 0.2, "stress_state": "calm", "confidence": 1.0, "physio_score": 0.8, "audio_score": 0.2}
+{"session_id": "a2d410d8-a3fd-4c36-87db-6a2d74e10bf1", "timestamp": 1777687143.853, "fused_score": 0.2, "stress_state": "calm", "confidence": 0.9999376535415649, "physio_score": 0.8, "audio_score": 0.2}
+{"session_id": "a2d410d8-a3fd-4c36-87db-6a2d74e10bf1", "timestamp": 1777687144.87, "fused_score": 0.2, "stress_state": "calm", "confidence": 0.9999376535415649, "physio_score": 0.8, "audio_score": 0.2}
+{"session_id": "a2d410d8-a3fd-4c36-87db-6a2d74e10bf1", "timestamp": 1777687145.886, "fused_score": 0.2, "stress_state": "calm", "confidence": 1.0, "physio_score": 0.2, "audio_score": 0.2}
+{"session_id": "a2d410d8-a3fd-4c36-87db-6a2d74e10bf1", "timestamp": 1777687146.897, "fused_score": 0.2, "stress_state": "calm", "confidence": 1.0, "physio_score": 0.2, "audio_score": 0.2}
+{"session_id": "a2d410d8-a3fd-4c36-87db-6a2d74e10bf1", "timestamp": 1777687147.91, "fused_score": 0.5, "stress_state": "mild", "confidence": 0.9983192086219788, "physio_score": 0.8, "audio_score": 0.2}
+{"session_id": "a2d410d8-a3fd-4c36-87db-6a2d74e10bf1", "timestamp": 1777687148.924, "fused_score": 0.5, "stress_state": "mild", "confidence": 0.9983192086219788, "physio_score": 0.8, "audio_score": 0.2}
+{"session_id": "a2d410d8-a3fd-4c36-87db-6a2d74e10bf1", "timestamp": 1777687151.962, "fused_score": 0.2, "stress_state": "calm", "confidence": 0.9940443634986877, "physio_score": 0.2, "audio_score": 0.2}
+{"session_id": "a2d410d8-a3fd-4c36-87db-6a2d74e10bf1", "timestamp": 1777687152.979, "fused_score": 0.2, "stress_state": "calm", "confidence": 0.9940443634986877, "physio_score": 0.2, "audio_score": 0.2}
+{"session_id": "a2d410d8-a3fd-4c36-87db-6a2d74e10bf1", "timestamp": 1777687153.996, "fused_score": 0.2, "stress_state": "calm", "confidence": 0.999997615814209, "physio_score": 0.8, "audio_score": 0.2}
