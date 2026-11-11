@@ -109,3 +109,19 @@ All colors MUST be HSL.
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+  }
+  .animate-float-slow {
+    animation: float 6s ease-in-out infinite;
+  }
+  .animate-float-slower {
+    animation: float 7s ease-in-out infinite 1s;
+  }
+  .animate-float-slowest {
+    animation: float 8s ease-in-out infinite 2s;
+  }
+}
